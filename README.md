@@ -1,6 +1,7 @@
 # Violence Detection System
 
 Hệ thống phát hiện bạo lực sử dụng deep learning với kiến trúc hybrid CNN-LSTM, có khả năng nhận diện bạo lực trong video real-time và phân tích file video.
+link full: https://drive.google.com/file/d/1_mJAM461OGxpicclCipJ982rPKlqaZNC/view?usp=sharing
 
 ## 🎯 Tính năng chính
 
@@ -297,4 +298,5 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **PyTorch team** cho deep learning framework
 - **OpenCV** cho computer vision capabilities  
 - **MediaPipe** cho pose estimation
+
 - **Research community** cho violence detection datasets
