@@ -1,3 +1,21 @@
+# 🎓 Faculty of Information Technology (DaiNam University)
+
+<h2 align="center">
+   GAME TIC TAC TOE 3x3 (CARO 3x3)
+</h2>
+<div align="center">
+    <p align="center">
+        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="docs/fitdnu_logo.png" alt="FIT DNU Logo" width="180"/>
+        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+    </p>
+
+[![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
+[![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20Technology-blue?style=for-the-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+[![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
+
+</div>
+
 # Violence Detection System
 
 Hệ thống phát hiện bạo lực sử dụng deep learning với kiến trúc hybrid CNN-LSTM, có khả năng nhận diện bạo lực trong video real-time và phân tích file video.
@@ -300,3 +318,4 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
