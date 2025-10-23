@@ -1,7 +1,7 @@
 # 🎓 Faculty of Information Technology (DaiNam University)
 
 <h2 align="center">
-   GAME TIC TAC TOE 3x3 (CARO 3x3)
+   Violence Detection System
 </h2>
 <div align="center">
     <p align="center">
@@ -318,4 +318,5 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
