@@ -298,12 +298,6 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 - **Detection accuracy**: 97.67% trên test set
 - **False positive rate**: <3%
 - **Model size**: ~97MB (ResNet18+LSTM)
-
-## video demo
- <p align="center">
-        <video src="Demo/1.mp4" alt="test1" width="170"/>
-        <video src="Demo/2.mp4" alt="test2" width="170"/>
-    </p>
     
 ## 🤝 Đóng góp
 
@@ -323,6 +317,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
