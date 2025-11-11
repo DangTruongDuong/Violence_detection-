@@ -41,6 +41,9 @@ Hệ thống sử dụng hybrid approach kết hợp:
 ## 📊 Hiệu suất Model
 
 ### Model chính (ResNet18 + LSTM):
+<img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="docs/hieusauat.png" alt="FIT DNU Logo" width="180"/>
+        <img src="docs/matrannhanlan.png" alt="DaiNam University Logo" width="200"/>
 - **Validation Accuracy**: **99.67%** 🏆
 - **Test Accuracy**: **97.67%**
 - **Precision**: **97.78%**
@@ -317,6 +320,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
