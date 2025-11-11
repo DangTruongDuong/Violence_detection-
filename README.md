@@ -48,7 +48,7 @@ Hệ thống sử dụng hybrid approach kết hợp:
        style="position: absolute; top: 0; left: 0; z-index: 2;"/>
 
   <!-- Ảnh ở dưới -->
-  <img src="docs/hieusuatdi.png" alt="Hiệu Suất Đi" width="400" 
+  <img src="docs/matrannhanlan.png" alt="matran" width="400" 
        style="position: relative; z-index: 1;"/>
 </div>
 
@@ -332,6 +332,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
