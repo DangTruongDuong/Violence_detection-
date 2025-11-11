@@ -307,7 +307,11 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 - **Performance**: Sử dụng pose version cho độ chính xác cao hơn
 
 ## 📈 Kết quả thực tế
-
+<div align="center">
+    <p align="center">
+        <img src="docs/detected_violence.png" alt="FIT DNU Logo" width="180"/>
+        <img src="docs/no_violence.png" alt="DaiNam University Logo" width="200"/>
+    </p>
 - **Training time**: 6-7 giờ (GPU) vs 100+ giờ (CPU)
 - **Real-time FPS**: 15-30 FPS tùy hardware
 - **Detection accuracy**: 97.67% trên test set
@@ -332,6 +336,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
