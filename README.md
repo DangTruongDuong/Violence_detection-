@@ -332,7 +332,8 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 ## 📄 License
 
-MIT License - Xem file LICENSE để biết thêm chi tiết.
+Gmail: Dangtruongduong2102@gmail.com
+DNU-CNTT_1601
 
 ## 🙏 Acknowledgments
 
@@ -341,6 +342,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
