@@ -42,10 +42,16 @@ Hệ thống sử dụng hybrid approach kết hợp:
 
 <h3>Model chính (ResNet18 + LSTM):</h3>
 
-<div align="center">
-  <img src="docs/hieusauat.png" alt="Hiếu Sấu Ất" width="300" style="margin-right: 40px;"/>
-  <img src="docs/matrannhanlan.png" alt="Mặt trận Nhân Lan" width="340"/>
+<div style="position: relative; display: inline-block;">
+  <!-- Ảnh ở trên -->
+  <img src="docs/hieusauat.png" alt="Hiếu Sấu Ất" width="400" 
+       style="position: absolute; top: 0; left: 0; z-index: 2;"/>
+
+  <!-- Ảnh ở dưới -->
+  <img src="docs/hieusuatdi.png" alt="Hiệu Suất Đi" width="400" 
+       style="position: relative; z-index: 1;"/>
 </div>
+
 
 <ul>
   <li><b>Validation Accuracy</b>: <b>99.67%</b> 🏆</li>
@@ -326,6 +332,7 @@ MIT License - Xem file LICENSE để biết thêm chi tiết.
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
