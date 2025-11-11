@@ -139,7 +139,7 @@ pose_video_test.py    # 🎬 Video test với pose + GUI
 
 ### 🖥️ User Interface
 ```
-gui.py                # 🖱️ Giao diện GUI chính
+unified_detector.py                # 🖱️ Giao diện GUI chính
 ├── Main application window
 ├── Video selection và model loading
 ├── Real-time detection controls
@@ -342,6 +342,7 @@ DNU-CNTT_1601
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
