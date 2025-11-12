@@ -71,8 +71,8 @@ Hệ thống sử dụng hybrid approach kết hợp:
 
 ### So sánh với các model khác:
 - **ResNet+LSTM**: 97.67% (Best)
-- **3D CNN**: ~95% 
-- **EfficientNet+LSTM**: ~96% 
+- **3D CNN**: ~81% 
+- **EfficientNet+LSTM**: ~89% 
 
 ## 📁 Cấu trúc File và Công dụng
 
@@ -349,6 +349,7 @@ DNU-CNTT_1601
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
