@@ -37,6 +37,11 @@ Hệ thống sử dụng hybrid approach kết hợp:
 - **LSTM layers** để mô hình hóa temporal sequence
 - **Bidirectional LSTM** để hiểu context tốt hơn
 - **Pose estimation** với MediaPipe để phân tích chuyển động
+- <div style="position: relative; display: inline-block;">
+  <!-- Ảnh ở trên -->
+  <img src="docs/mohinhtongquan.png" alt="sodotongquan" width="400" 
+       style="position: absolute; top: 0; left: 0; z-index: 2;"/>
+</div>
 
 ## 📊 Hiệu suất Model
 
@@ -342,6 +347,7 @@ DNU-CNTT_1601
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
