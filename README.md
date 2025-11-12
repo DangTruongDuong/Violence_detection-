@@ -25,7 +25,7 @@ link full: https://drive.google.com/file/d/1_mJAM461OGxpicclCipJ982rPKlqaZNC/vie
 - **Phát hiện bạo lực real-time** từ webcam
 - **Phân tích video file** với batch processing
 - **Pose estimation** với MediaPipe (33 landmarks)
-- **Nhiều kiến trúc model** (ResNet18+LSTM, 3D CNN, EfficientNet+LSTM)
+- **Nhiều kiến trúc model** (ResNet+LSTM, 3D CNN, EfficientNet+LSTM)
 - **Transfer learning** với pre-trained models
 - **Giao diện GUI** thân thiện
 - **Đánh giá toàn diện** với metrics và visualizations
@@ -33,7 +33,7 @@ link full: https://drive.google.com/file/d/1_mJAM461OGxpicclCipJ982rPKlqaZNC/vie
 ## 🏗️ Kiến trúc Model
 
 Hệ thống sử dụng hybrid approach kết hợp:
-- **CNN backbone** (ResNet18) để trích xuất spatial features  
+- **CNN backbone** (ResNet) để trích xuất spatial features  
 - **LSTM layers** để mô hình hóa temporal sequence  
 - **Bidirectional LSTM** để hiểu context tốt hơn  
 - **Pose estimation** với MediaPipe để phân tích chuyển động  
@@ -47,7 +47,7 @@ Hệ thống sử dụng hybrid approach kết hợp:
 
 ## 📊 Hiệu suất Model
 
-<h3>Model chính (ResNet18 + LSTM):</h3>
+<h3>Model chính (ResNet + LSTM):</h3>
 
 <div style="position: relative; display: inline-block;">
   <!-- Ảnh ở trên -->
@@ -91,7 +91,7 @@ data_loader.py         # 📊 Xử lý và load dữ liệu
 └── Custom dataset class cho PyTorch
 
 model.py              # 🏗️ Định nghĩa các kiến trúc model
-├── ViolenceDetectionModel (ResNet18 + LSTM) - 97.67%
+├── ViolenceDetectionModel (ResNet + LSTM) - 97.67%
 ├── ConvLSTM3D (3D CNN) - ~95%
 ├── EfficientNetLSTM (EfficientNet + LSTM) - ~96%
 └── Model creation và parameter counting
@@ -276,7 +276,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 | Model | Validation Acc | Test Acc | Precision | Recall | F1-Score |
 |-------|----------------|----------|-----------|--------|----------|
-| **ResNet18+LSTM** | **99.67%** | **97.67%** | **97.78%** | **97.67%** | **97.67%** |
+| **ResNet+LSTM** | **99.67%** | **97.67%** | **97.78%** | **97.67%** | **97.67%** |
 | 3D CNN | ~95% | ~94% | ~94% | ~94% | ~94% |
 | EfficientNet+LSTM | ~96% | ~95% | ~95% | ~95% | ~95% |
 
@@ -328,7 +328,7 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 - **Real-time FPS**: 15-30 FPS tùy hardware
 - **Detection accuracy**: 97.67% trên test set
 - **False positive rate**: <3%
-- **Model size**: ~97MB (ResNet18+LSTM)
+- **Model size**: ~97MB (ResNet+LSTM)
     
 ## 🤝 Đóng góp
 
@@ -349,6 +349,7 @@ DNU-CNTT_1601
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
