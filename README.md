@@ -39,7 +39,7 @@ Hệ thống sử dụng hybrid approach kết hợp:
 - **Pose estimation** với MediaPipe để phân tích chuyển động  
 
 <p align="center">
-  <img src="docs/mohinhtongquan.png" alt="sodotongquan" width="400"/>
+  <img src="docs/mohinhtongquan.png" alt="sodotongquan" width="600"/>
 </p>
 
 <p align="center"><b>Sơ đồ tổng quan</b></p>
@@ -349,6 +349,7 @@ DNU-CNTT_1601
 - **MediaPipe** cho pose estimation
 
 - **Research community** cho violence detection datasets
+
 
 
 
